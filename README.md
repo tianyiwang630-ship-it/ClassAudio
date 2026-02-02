@@ -52,10 +52,7 @@ ClassAudio 通过 AI 技术解决这些痛点，提供**实时、准确、结构
 
 ### 📹 演示视频
 
-<!-- 上传视频到 GitHub Issue 评论框，获取链接后替换下方 URL -->
-https://github.com/user-attachments/assets/YOUR_VIDEO_URL_HERE
-
----
+https://github.com/tianyiwang630-ship-it/ClassAudio---AI-Powered-Intelligent-Classroom-Transcription-System/issues/1#issue-3883578438 
 
 ## 🎯 核心价值
 
