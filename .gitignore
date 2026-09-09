@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ASR 模型（本地下载的 GGUF，不提交到 Git）
+data/models/
+data/vad/
+
+# NeMo-Speech.cpp 本地预编译运行包（约 240 MB，发布时单独分发/下载）
+# 保留代码和配置，避免把 CUDA DLL、LIB 和压缩包提交进仓库。
+tools/nemo-speech/runtime/
+tools/nemo-speech/*.zip
+tools/nemo-speech/source/
+tools/nemo-speech/converter-*/
+
+# Logs
+logs/
+data/logs/
+*.log
+
+# Environment variables (包含API keys)
+.env
+config_local.py
+
+# Output files
+data/*.json
+data/*.txt
+
+# 本地录音和测试音频
+data/audio/
+data/recordings/
+data/**/*.wav
+data/**/*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Assets (keep demo videos)
+!assets/
+!assets/*.mp4
+!assets/*.gif
