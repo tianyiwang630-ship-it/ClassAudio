@@ -3,7 +3,13 @@
 # basic info
 本机是windows，有5060gpu，运行环境是anaconda的deepl。
 # 工作
-第一步，先更新的我LLM API，我的api是sk-5fe77f0bdc8548e4a24c0c57b0d92789，https://api.deepseek.com，deepseek-v4-flash
+第一步，先更新的我LLM API，我的api是xx，https://api.deepseek.com，deepseek-v4-flash
 第二步，ASR的模型，查一下有没有新的选择，然后确定相应模型，并且部署
 第三步，尝试搭建运转起来。
 第四步，后续的ASR评测和功能更新。
+# 需要考虑的未来设计
+1 这个项目未来不一定在浏览器，很可能弄成exe，dmg，在electron打包成exe
+2 
+# 进展
+1-3步已经完成，现在进入第四步。
+优化更新，如果我说要进PRD，那么确定实施后，就在docs\prds 写一个PRD记录这次更新，背景，也就是为什么，预期目标和验收标准（如果有就写，没有就算），具体方案，言简意赅，不需要过多细节。

@@ -126,7 +126,8 @@ class NemoSpeechServer:
             "--no-ui",
             "--asr-model", self.model_path,
             "--device", self.device,
-            "--asr.streaming.rnnt_right_context", "1",
+            # 6 个右上下文帧（约 560ms）在准确率和实时延迟之间更适合课堂转录。
+            "--asr.streaming.rnnt_right_context", "6",
             "--asr.endpointing.enable=true",
             "--asr.endpointing.stop_history_eou_ms", str(self.endpointing_ms),
             "--asr.batching.enabled=false",
